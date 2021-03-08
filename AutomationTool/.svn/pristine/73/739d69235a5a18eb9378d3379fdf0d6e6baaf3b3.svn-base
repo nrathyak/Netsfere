@@ -1,0 +1,431 @@
+
+          The Application Cache API (AppCache) is deprecated and will be removed at a future date.  Please consider using ServiceWorker for offline support.  ms3.netsferetest.com
+GET 
+https://ms3.netsferetest.com/#/conversations/58 [HTTP/1.1 200 OK 0ms]
+document isVisible: false  netsfere2-19139.js:458:383
+message-server/syncpresence.php request:  Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", sub: 2 }  netsfere2-19139.js:541:81
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/syncpresence.php [HTTP/1.1 200 OK 309ms]
+Begin client load at 1500611526629  ms3.netsferetest.com:30:10
+Error in parsing value for ‘display’.  Declaration dropped.  ms3.netsferetest.com
+GET 
+https://ms3.netsferetest.com/css/netsfere-19139.css [HTTP/1.1 200 OK 0ms]
+GET 
+https://ms3.netsferetest.com/webfonts/material-icons/material-icons.css [HTTP/1.1 200 OK 268ms]
+GET 
+https://ms3.netsferetest.com/webfonts/ionicons/ionicons-2.0.1/css/ionicons.css [HTTP/1.1 200 OK 898ms]
+Error in parsing value for ‘-webkit-text-size-adjust’.  Declaration dropped.  netsfere-19139.css:1:354
+Unknown pseudo-class or pseudo-element ‘-webkit-search-cancel-button’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:1618
+GET 
+https://ms3.netsferetest.com/webfonts/roboto/Roboto.css [HTTP/1.1 200 OK 240ms]
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:1:2167
+Error in parsing value for ‘background-image’.  Declaration dropped.  netsfere-19139.css:1:3150
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:1:3389
+Expected declaration but found ‘*’.  Skipped to next declaration.  netsfere-19139.css:1:3655
+Expected declaration but found ‘*’.  Skipped to next declaration.  netsfere-19139.css:1:3788
+Expected declaration but found ‘*’.  Skipped to next declaration.  netsfere-19139.css:1:3837
+Expected declaration but found ‘*’.  Skipped to next declaration.  netsfere-19139.css:1:4000
+Unknown property ‘text-size-adjust’.  Declaration dropped.  netsfere-19139.css:1:5239
+Unknown property ‘user-select’.  Declaration dropped.  netsfere-19139.css:1:5364
+Expected ‘none’, URL, or filter function but found ‘alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped.  netsfere-19139.css:1:5845
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:6885
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:7236
+GET 
+https://ms3.netsferetest.com/jslib/whichbrowser.min.js [HTTP/1.1 200 OK 261ms]
+Error in parsing value for ‘display’.  Declaration dropped.  netsfere-19139.css:1:11217
+Unknown property ‘box-orient’.  Declaration dropped.  netsfere-19139.css:1:11474
+Unknown property ‘box-pack’.  Declaration dropped.  netsfere-19139.css:1:11541
+Error in parsing value for ‘float’.  Declaration dropped.  netsfere-19139.css:1:11694
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:19770
+GET 
+https://ms3.netsferetest.com/jslib/netsfere-19139.js [HTTP/1.1 200 OK 0ms]
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:20127
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:20280
+Unknown pseudo-class or pseudo-element ‘-webkit-input-placeholder’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:21681
+Expected color but found ‘none’.  Error in parsing value for ‘border-color’.  Declaration dropped.  netsfere-19139.css:1:23096
+Unknown property ‘user-select’.  Declaration dropped.  netsfere-19139.css:1:24769
+Unknown property ‘user-select’.  Declaration dropped.  netsfere-19139.css:1:24980
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:25831
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:26154
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:26499
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:26986
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:27485
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:28871
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:29615
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:29947
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:30094
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:30292
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:34032
+Unknown property ‘appearance’.  Declaration dropped.  netsfere-19139.css:1:34696
+Unknown pseudo-class or pseudo-element ‘i-block-chrome’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:42271
+Unknown pseudo-class or pseudo-element ‘-webkit-’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:42354
+Error in parsing value for ‘width’.  Declaration dropped.  netsfere-19139.css:1:43271
+Error in parsing value for ‘background’.  Declaration dropped.  netsfere-19139.css:1:43922
+Error in parsing value for ‘background’.  Declaration dropped.  netsfere-19139.css:1:44034
+Error in parsing value for ‘background’.  Declaration dropped.  netsfere-19139.css:1:44128
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:44559
+Error in parsing value for ‘height’.  Declaration dropped.  netsfere-19139.css:1:45594
+Error in parsing value for ‘-webkit-border-radius’.  Declaration dropped.  netsfere-19139.css:1:45727
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:45747
+Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped.  netsfere-19139.css:1:46138
+Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped.  netsfere-19139.css:1:46561
+Expected color but found ‘none’.  Error in parsing value for ‘border-color’.  Declaration dropped.  netsfere-19139.css:1:49149
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:49897
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:50060
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:50138
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:50787
+Error in parsing value for ‘word-break’.  Declaration dropped.  netsfere-19139.css:1:54108
+Error in parsing value for ‘cursor’.  Declaration dropped.  netsfere-19139.css:1:55387
+Error in parsing value for ‘cursor’.  Declaration dropped.  netsfere-19139.css:1:55558
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:56035
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:1:56081
+Error in parsing value for ‘word-break’.  Declaration dropped.  netsfere-19139.css:1:56607
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:57888
+GET 
+https://ms3.netsferetest.com/jslib/iehacks.js [HTTP/1.1 200 OK 537ms]
+GET 
+https://ms3.netsferetest.com/images/GreenTick-Email.png [HTTP/1.1 200 OK 1126ms]
+GET 
+https://ms3.netsferetest.com/js/netsfere2-19139.js [HTTP/1.1 200 OK 0ms]
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:61052
+Error in parsing value for ‘left’.  Declaration dropped.  netsfere-19139.css:1:61502
+Error in parsing value for ‘top’.  Declaration dropped.  netsfere-19139.css:1:61530
+Unknown property ‘user-select’.  Declaration dropped.  netsfere-19139.css:1:64257
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:64430
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:65964
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:70333
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:1:70416
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:70694
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:70882
+Unknown property ‘-moz-background-clip’.  Declaration dropped.  netsfere-19139.css:1:70977
+Error in parsing value for ‘display’.  Declaration dropped.  netsfere-19139.css:1:76516
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:77977
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:79656
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-track’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:79686
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-thumb’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:79783
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-thumb’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:79880
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-thumb’.  Ruleset ignored due to bad selector.  netsfere-19139.css:1:79939
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:1:81356
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:5:540
+GET 
+https://ms3.netsferetest.com/images/Web_Email_Failed_X.png [HTTP/1.1 200 OK 1134ms]
+Unknown property ‘-moz-border-radius’.  Declaration dropped.  netsfere-19139.css:5:7398
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:5:7488
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:5:8231
+Error in parsing value for ‘-webkit-transition’.  Declaration dropped.  netsfere-19139.css:5:8292
+Error in parsing value for ‘-moz-transition’.  Declaration dropped.  netsfere-19139.css:5:8314
+Error in parsing value for ‘transition’.  Declaration dropped.  netsfere-19139.css:5:8351
+Keyframe rule ignored due to bad selector.  netsfere-19139.css:5:9919
+Keyframe rule ignored due to bad selector.  netsfere-19139.css:5:10006
+Keyframe rule ignored due to bad selector.  netsfere-19139.css:5:10169
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:5:10840
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:5:11770
+Unknown property ‘-moz-box-shadow’.  Declaration dropped.  netsfere-19139.css:5:12482
+Unknown property ‘user-select’.  Declaration dropped.  netsfere-19139.css:5:12762
+Unknown pseudo-class or pseudo-element ‘-webkit-full-screen’.  Ruleset ignored due to bad selector.  netsfere-19139.css:5:13128
+Expected ‘none’, URL, or filter function but found ‘Alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped.  netsfere-19139.css:9:584
+Unknown property ‘user-select’.  Declaration dropped.  netsfere-19139.css:9:2188
+Expected ‘none’, URL, or filter function but found ‘alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped.  netsfere-19139.css:9:12211
+Expected ‘none’, URL, or filter function but found ‘Alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped.  netsfere-19139.css:9:18312
+Expected ‘none’, URL, or filter function but found ‘Alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped.  netsfere-19139.css:9:18462
+Expected ‘none’, URL, or filter function but found ‘Alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped.  netsfere-19139.css:9:18537
+Expected ‘none’, URL, or filter function but found ‘Alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped.  netsfere-19139.css:9:29086
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar’.  Ruleset ignored due to bad selector.  netsfere-19139.css:9:29180
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-track’.  Ruleset ignored due to bad selector.  netsfere-19139.css:9:29234
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-thumb’.  Ruleset ignored due to bad selector.  netsfere-19139.css:9:29305
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-thumb’.  Ruleset ignored due to bad selector.  netsfere-19139.css:9:29411
+Unknown pseudo-class or pseudo-element ‘-webkit-scrollbar-thumb’.  Ruleset ignored due to bad selector.  netsfere-19139.css:9:29476
+Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped.  netsfere-19139.css:12:654
+Keyframe rule ignored due to bad selector.  netsfere-19139.css:12:1611
+Keyframe rule ignored due to bad selector.  netsfere-19139.css:12:1744
+Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped.  material-icons.css:32:25
+Unknown property ‘speak’.  Declaration dropped.  ionicons.css:14:20039
+Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped.  ionicons.css:14:20230
+GET 
+https://ms3.netsferetest.com/whichbrowser/server/detect.php [HTTP/1.1 200 OK 230ms]
+GET 
+https://ms3.netsferetest.com/whichbrowser/server/detect.php [HTTP/1.1 200 OK 236ms]
+GET 
+https://www.google-analytics.com/analytics.js [HTTP/2.0 200 OK 18ms]
+GET 
+https://www.google-analytics.com/analytics.js [HTTP/2.0 200 OK 31ms]
+GET 
+https://t.sf14g.com/sf14g.js [HTTP/1.1 200 OK 243ms]
+GET 
+https://www.google-analytics.com/collect [HTTP/2.0 200 OK 26ms]
+GET 
+https://www.google-analytics.com/collect [HTTP/2.0 200 OK 21ms]
+GET 
+https://1.tl813.com/tl813.js [HTTP/1.1 200 OK 244ms]
+GET 
+https://1.tl813.com/tl813.asp [HTTP/1.1 302 Object moved 238ms]
+GET 
+https://1.tl813.com/dot.gif [HTTP/1.1 200 OK 238ms]
+Device Ready!!, elapsed 2579 ms  netsfere2-19139.js:458:177
+Bind view model: timer startednetsfere2-19139.js:272
+Bind view model: 53.05msnetsfere2-19139.js:272
+Found prefs, restoring session for userId 105  netsfere2-19139.js:7:133
+Current legal version set to 0  netsfere2-19139.js:273:124
+Successful login: sessionId=oh9jv0she7lrp2ba6pnq8pttu3  netsfere2-19139.js:9:318
+ScreenOverlay activated  netsfere2-19139.js:520:419
+AppViewModelContainers initialized in 0 ms  netsfere2-19139.js:164:231
+AppViewModelSettings initialized in 1 ms  netsfere2-19139.js:231:157
+contactSearchQueryThrottled run: ""  netsfere2-19139.js:118:27
+Init AttachmentMgr  netsfere2-19139.js:247:228
+AttachmentMgr installing WebBrowserStrategy  netsfere2-19139.js:247:355
+Init AttachmentMgr.CommonStrategy  netsfere2-19139.js:246:83
+Initializing RecentMsgMgr  netsfere2-19139.js:516:269
+Initializing NotificationSender  netsfere2-19139.js:495:372
+Asking for notification permission  netsfere2-19139.js:502:48
+cancelNGNIX  netsfere2-19139.js:523:463
+watchdog start/reset  netsfere2-19139.js:522:173
+initNGNIX "https://ms3.netsferetest.com/4/sub?sessionId=oh9jv0she7lrp2ba6pnq8pttu3"  netsfere2-19139.js:523:85
+onNGNIXstart  netsfere2-19139.js:523:208
+message-server/syncmessaging.php request:  Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", sub: 1 }  netsfere2-19139.js:541:81
+Application cache is firing event checking  netsfere2-19139.js:443:1
+Application manifest hasn't changed  netsfere2-19139.js:443:247
+GET 
+XHR 
+https://ms3.netsferetest.com/xml/country_table.xml [HTTP/1.1 200 OK 451ms]
+GET 
+XHR 
+https://ms3.netsferetest.com/xml/pgp_table.xml [HTTP/1.1 200 OK 246ms]
+GET 
+XHR 
+https://ms3.netsferetest.com/4/message-server/ReadBuildNum.php [HTTP/1.1 200 OK 263ms]
+FileMgr: running pilot  netsfere2-19139.js:395:36
+FileMgr: pilot successful  netsfere2-19139.js:395:154
+FileMgr: Installing ydn.db  netsfere2-19139.js:396:380
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/syncmessaging.php [HTTP/1.1 200 OK 2411ms]
+GET 
+XHR 
+https://ms3.netsferetest.com/4/sub [HTTP/1.1 200 OK]
+GET 
+https://pi.pardot.com/pd.js [HTTP/1.1 200 OK 501ms]
+XML Parsing Error: not well-formed
+Location: 
+Line Number 1, Column 77: (unknown):1:77
+GET 
+https://pi.pardot.com/analytics [HTTP/1.0 200 OK 301ms]
+message-server/syncmessaging.php fullSync received:  Object { seqNum: "5565", tblChatContainers: Array[40], tblContacts: Array[15], tblContactAttr: Array[11], tblContactAttrValues: Array[29], tblOrganizations: Array[19], tblUsers: Array[15], tblCallLogs: Array[399], tblGuestOrganizations: Array[3] }  netsfere2-19139.js:529:119
+Update user's options to version 5565netsfere2-19139.js:92
+SyncedStorage:
+ version: 5565
+ item: {
+   "servicePlan": "NetSfere Enterprise",
+   "maxParticipantSize": 150,
+   "maxAttachMB": 100,
+   "encPolicy": 2,
+   "smsFallbackPolicy": 0,
+   "passwordPolicy": {
+      "minLength": 8,
+      "rules": [],
+      "biometricPw": 1
+   },
+   "isExportConvToEmailEnabled": 1,
+   "allowAttachmentText": 1,
+   "allowGuestUser": 1,
+   "organizationId": 34667,
+   "organizationName": "akhil's Org",
+   "messageRetentionTime": 1825,
+   "allowNetstream": 1,
+   "netstreamPolicy": [],
+   "allowNetstreamVoice": 1,
+   "senderNameInNotify": 1,
+   "encryptedTxtInNotify": 1
+}  netsfere2-19139.js:92:111
+tblGuestOrganizations fullSync, seqNum: 5565, 3 items  netsfere2-19139.js:238:334
+tblContact fullSync, seqNum: 5565, 15 items  netsfere2-19139.js:132:218
+message-server/syncpresence.php request:  Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", sub: 1 }  netsfere2-19139.js:541:81
+tblContactAttr fullSync, seqNum: 5565, 11 items  netsfere2-19139.js:134:287
+tblContactAttrValues fullSync, seqNum: 5565, 29 items  netsfere2-19139.js:135:73
+Update user's avatar to version 5565  netsfere2-19139.js:91:371
+Attachment Mgr: attachments are now enabled  netsfere2-19139.js:254:444
+tblCallLogs fullSync, seqNum: 5565, 399 items  netsfere2-19139.js:244:20
+tblChatContainers fullSync, seqNum: 5565 , 40 items  netsfere2-19139.js:165:449
+tblMessages fullSync, seqNum: 5565 , 296 items  netsfere2-19139.js:531:285
+Double message-server/syncpresence.php request:  {"readyState":1}  netsfere2-19139.js:540:439
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+Initializing paths  netsfere2-19139.js:276:468
+message db: full sync received, no further action necessary  netsfere2-19139.js:71:401
+Path: conversations/:containerId(/:mode)  netsfere2-19139.js:686:147
+ScreenOverlay deactivated  netsfere2-19139.js:520:51
+Running StatusHandler  netsfere2-19139.js:545:295
+Time since client load: 6416 ms  netsfere2-19139.js:278:449
+Initialization complete in 3691 ms  netsfere2-19139.js:279:25
+CURRENT PAGE IS: conversations  netsfere2-19139.js:708:383
+message-server/synccomposing.php request:  Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", sub: 1, containerIds: "[58]" }  netsfere2-19139.js:541:81
+message-server/markread.php request: Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", containerId: "58", msgId: 3084 }  netsfere2-19139.js:61:145
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/syncpresence.php [HTTP/1.1 200 OK 420ms]
+message-server/syncpresence.php response: Array [ Array[3], Array[3], Array[3], Array[3], Array[3], Array[3], Array[3], Array[2], Array[2], Array[4], 2 more… ] 12  netsfere2-19139.js:539:277
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/updatestatus.php [HTTP/1.1 200 OK 293ms]
+GET 
+https://ms3.netsferetest.com/images/AppIcon60x60.png [HTTP/1.1 200 OK 229ms]
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/synccomposing.php [HTTP/1.1 200 OK 274ms]
+Error in parsing value for ‘word-break’.  Declaration dropped. ms3.netsferetest.com
+message-server/synccomposing.php response: OK  netsfere2-19139.js:540:69
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/markread.php [HTTP/1.1 200 OK 325ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 303ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 517ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 357ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 330ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 520ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 735ms]
+GET 
+https://ms3.netsferetest.com/images/presence/presenceStatusGuest@1x.png [HTTP/1.1 200 OK 528ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 563ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 683ms]
+GET 
+https://ms3.netsferetest.com/4/message-server/getavatar.php [HTTP/1.1 200 OK 923ms]
+message-server/markread.php response: OK  netsfere2-19139.js:476:42
+GET 
+https://ms3.netsferetest.com/images/PresenceOnline.png [HTTP/1.1 200 OK 323ms]
+GET 
+https://ms3.netsferetest.com/images/PresenceAway.png [HTTP/1.1 200 OK 406ms]
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: no-op received,  Object { no-op: "no-op" }  netsfere2-19139.js:526:371
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+messaging changeLog entries: 2  netsfere2-19139.js:533:69
+messaging entry: tblChatContainers u 5566 keyTuple Array [ "58" ] data: Object { containerId: 58, containerName: "", containerType: 2, createTime: 1498116236, isFavorite: 0, isMuted: 0, lastReadMsgId: 3084, ownerId: 105, containerKey: "WEzLDe9M2HY62J7yMQKP7OI3qlVtPlC5ZFp…", containerIv: "6ifJeTovNrkt3YL7kC2JdA==", 14 more… }  netsfere2-19139.js:533:388
+entry vaue in change log :  Object { seqNum: 5566, tableName: "tblChatContainers", keyTuple: Array[1], op: "u", data: Array[24] }  netsfere2-19139.js:166:68
+tblChatContainers changeLog, seqNum: 5566 , 40 items  netsfere2-19139.js:166:128
+messaging entry: tblMessages i 5567 keyTuple Array [ "58", "3085" ] data: Object { msgId: 3085, containerId: 58, createTime: 1500611525, fromId: 105, msgType: 9, msgPayload: "{"type":1,"subject":"akil5","descri…", msgIv: null, attachmentId: null, attachment: "", quotedMsgId: 0 }  netsfere2-19139.js:533:388
+Scroll to bottom is true  netsfere2-19139.js:1359:424
+message-server/markread.php request: Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", containerId: "58", msgId: 3085 }  netsfere2-19139.js:61:145
+message-server/markread.php request: Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", containerId: "58", msgId: 3085 }  netsfere2-19139.js:61:145
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/markread.php [HTTP/1.1 200 OK 381ms]
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/markread.php [HTTP/1.1 200 OK 409ms]
+message-server/markread.php response: OK netsfere2-19139.js:476:42
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5568 keyTuple Array [ "58", "105" ] data: Object { userId: 105, lastDeliveredMsgId: 2977, lastReadMsgId: 3085, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5569 keyTuple Array [ "58", "105" ] data: Object { userId: 105, lastDeliveredMsgId: 2977, lastReadMsgId: 3085, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5570 keyTuple Array [ "58", "102" ] data: Object { userId: 102, lastDeliveredMsgId: 3042, lastReadMsgId: 3085, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+Path: conversations/:containerId(/:mode)  netsfere2-19139.js:686:147
+updateAfterContainerIdChange null doe not exit  netsfere2-19139.js:63:23
+CURRENT PAGE IS: conversations  netsfere2-19139.js:708:383
+Error in parsing value for ‘word-break’.  Declaration dropped. ms3.netsferetest.com
+GET 
+https://ms3.netsferetest.com/images/live/hideChatDisabled@2x.png [HTTP/1.1 200 OK 222ms]
+GET 
+https://ms3.netsferetest.com/images/live/muteMicOff@2x.png [HTTP/1.1 200 OK 228ms]
+GET 
+https://ms3.netsferetest.com/images/live/zoomOutBtn@2x.png [HTTP/1.1 200 OK 241ms]
+GET 
+https://ms3.netsferetest.com/images/live/stopBroadcastBtn@2x.png [HTTP/1.1 200 OK 225ms]
+GET 
+https://live.netsfere.com/4c697665/live [HTTP/1.1 101 Switching Protocols 567ms]
+watchdog start/reset  netsfere2-19139.js:522:173
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatContainers u 5571 keyTuple Array [ "58" ] data: Object { containerId: 58, containerName: "", containerType: 2, createTime: 1498116236, isFavorite: 0, isMuted: 0, lastReadMsgId: 3085, ownerId: 105, containerKey: "WEzLDe9M2HY62J7yMQKP7OI3qlVtPlC5ZFp…", containerIv: "6ifJeTovNrkt3YL7kC2JdA==", 14 more… }  netsfere2-19139.js:533:388
+entry vaue in change log :  Object { seqNum: 5571, tableName: "tblChatContainers", keyTuple: Array[1], op: "u", data: Array[24] }  netsfere2-19139.js:166:68
+tblChatContainers changeLog, seqNum: 5571 , 40 items  netsfere2-19139.js:166:128
+watchdog cancel  netsfere2-19139.js:522:277
+watchdog start/reset  netsfere2-19139.js:522:173
+TURNS is not yet supported.  netsfere2-19139.js:1466
+Using more than two STUN/TURN servers slows down discovery netsfere2-19139.js:1466
+messaging changeLog entries: 2  netsfere2-19139.js:533:69
+messaging entry: tblChatContainers u 5572 keyTuple Array [ "58" ] data: Object { containerId: 58, containerName: "", containerType: 2, createTime: 1498116236, isFavorite: 0, isMuted: 0, lastReadMsgId: 3085, ownerId: 105, containerKey: "WEzLDe9M2HY62J7yMQKP7OI3qlVtPlC5ZFp…", containerIv: "6ifJeTovNrkt3YL7kC2JdA==", 14 more… }  netsfere2-19139.js:533:388
+entry vaue in change log :  Object { seqNum: 5572, tableName: "tblChatContainers", keyTuple: Array[1], op: "u", data: Array[24] }  netsfere2-19139.js:166:68
+tblChatContainers changeLog, seqNum: 5572 , 40 items  netsfere2-19139.js:166:128
+messaging entry: tblMessages i 5573 keyTuple Array [ "58", "3086" ] data: Object { msgId: 3086, containerId: 58, createTime: 1500611541, fromId: 105, msgType: 9, msgPayload: "{"type":1,"subject":"akil5","descri…", msgIv: null, attachmentId: null, attachment: "", quotedMsgId: 0 }  netsfere2-19139.js:533:388
+Scroll to bottom is true  netsfere2-19139.js:1359:424
+message-server/markread.php request: Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", containerId: "58", msgId: 3086 }  netsfere2-19139.js:61:145
+message-server/markread.php request: Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", containerId: "58", msgId: 3086 }  netsfere2-19139.js:61:145
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/markread.php [HTTP/1.1 200 OK 381ms]
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/markread.php [HTTP/1.1 200 OK 330ms]
+message-server/markread.php response: OK netsfere2-19139.js:476:42
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5574 keyTuple Array [ "58", "105" ] data: Object { userId: 105, lastDeliveredMsgId: 2977, lastReadMsgId: 3086, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5575 keyTuple Array [ "58", "105" ] data: Object { userId: 105, lastDeliveredMsgId: 2977, lastReadMsgId: 3086, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5576 keyTuple Array [ "58", "102" ] data: Object { userId: 102, lastDeliveredMsgId: 3042, lastReadMsgId: 3086, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+ICE failed, your TURN server appears to be broken, see about:webrtc for more details  (unknown)
+NetStream:  media never received from server.  netsfere2-19139.js:1456:485
+watchdog cancel  netsfere2-19139.js:522:277
+Path: conversations/:containerId(/:mode)  netsfere2-19139.js:686:147
+updateAfterContainerIdChange null doe not exit  netsfere2-19139.js:63:23
+CURRENT PAGE IS: conversations  netsfere2-19139.js:708:383
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: no-op received,  Object { no-op: "no-op" }  netsfere2-19139.js:526:371
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/updatestatus.php [HTTP/1.1 200 OK 312ms]
+document isVisible: false  netsfere2-19139.js:458:383
+message-server/syncpresence.php request:  Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", sub: 2 }  netsfere2-19139.js:541:81
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/syncpresence.php [HTTP/1.1 200 OK 297ms]
+message-server/syncpresence.php response: OK 2  netsfere2-19139.js:539:277
+messaging changeLog entries: 2  netsfere2-19139.js:533:69
+messaging entry: tblChatContainers u 5577 keyTuple Array [ "58" ] data: Object { containerId: 58, containerName: "", containerType: 2, createTime: 1498116236, isFavorite: 0, isMuted: 0, lastReadMsgId: 3086, ownerId: 105, containerKey: "WEzLDe9M2HY62J7yMQKP7OI3qlVtPlC5ZFp…", containerIv: "6ifJeTovNrkt3YL7kC2JdA==", 14 more… }  netsfere2-19139.js:533:388
+entry vaue in change log :  Object { seqNum: 5577, tableName: "tblChatContainers", keyTuple: Array[1], op: "u", data: Array[24] }  netsfere2-19139.js:166:68
+tblChatContainers changeLog, seqNum: 5577 , 40 items  netsfere2-19139.js:166:128
+messaging entry: tblMessages i 5578 keyTuple Array [ "58", "3087" ] data: Object { msgId: 3087, containerId: 58, createTime: 1500611621, fromId: 105, msgType: 9, msgPayload: "{"type":1,"subject":"akil5","descri…", msgIv: null, attachmentId: null, attachment: "", quotedMsgId: 0 }  netsfere2-19139.js:533:388
+Scroll to bottom is true  netsfere2-19139.js:1359:424
+message-server/markread.php request: Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", containerId: "58", msgId: 3087 }  netsfere2-19139.js:61:145
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/markread.php [HTTP/1.1 200 OK 333ms]
+message-server/markread.php response: OK  netsfere2-19139.js:476:42
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5579 keyTuple Array [ "58", "105" ] data: Object { userId: 105, lastDeliveredMsgId: 2977, lastReadMsgId: 3087, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+messaging changeLog entries: 1  netsfere2-19139.js:533:69
+messaging entry: tblChatParticipants u 5580 keyTuple Array [ "58", "102" ] data: Object { userId: 102, lastDeliveredMsgId: 3042, lastReadMsgId: 3087, needReinvite: false, propWriteEnabled: false, unread: 0 }  netsfere2-19139.js:533:388
+document isVisible: true  netsfere2-19139.js:458:383
+message-server/markread.php request: Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", containerId: "58", msgId: 3087 }  netsfere2-19139.js:61:145
+message-server/syncpresence.php request:  Object { appVer: "3.2.0", sessionId: "oh9jv0she7lrp2ba6pnq8pttu3", sub: 1 }  netsfere2-19139.js:541:81
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/markread.php [HTTP/1.1 200 OK 336ms]
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/syncpresence.php [HTTP/1.1 200 OK 543ms]
+POST 
+XHR 
+https://ms3.netsferetest.com/4/message-server/updatestatus.php [HTTP/1.1 200 OK 458ms]
+watchdog start/reset  netsfere2-19139.js:522:173
+utility stream: unread count received,  Object { unread-count: "0" }  netsfere2-19139.js:526:234
+message-server/markread.php response: OK  netsfere2-19139.js:476:42
+message-server/syncpresence.php response: Array [ Array[3], Array[3], Array[3], Array[3], Array[3], Array[3], Array[3], Array[2], Array[2], Array[4], 2 more… ] 12

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity">
+	<listeners>
+		<listener
+			class-name="com.infinite.netsfere.automationtool.reports.ExtentReporterNG" />
+	</listeners>
+	<test thread-count="5" name="Test">
+ 	<groups>
+			<run>
+
+				 <include name="login"></include>
+	 	 	 <include name="conversation"></include>   
+				<include name="guest"></include>  
+			 	 <include name="Channel"></include>
+		 	<include name="meeting"></include> 
+				<include name="settings"></include> 
+				<include name="messageForwarding"></include> 
+				<include name="inlineReply"></include>  
+				<include name="logout"></include> 
+
+ 
+			</run>
+		</groups>   
+
+		<classes>
+			<class
+				name="com.infinite.netsfere.automationtool.suits.EndToENdSanity">
+			 <!-- 	<methods>
+			 	<include name="loginToWeb"></include> 
+				 <include name="loginToAndroid"></include> 
+			 <include name="webTransferOwnershipAndLeaveConversation"></include> 
+				<include name="androidSendsMessage"></include>
+				<include name="androidWritesToWriteableChannelAndWebReadsTheMessage"></include> 
+				
+				</methods>  -->
+			</class>
+		</classes>
+	</test>
+</suite> 

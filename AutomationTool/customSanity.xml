@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End To End Suite">
+	<listeners>
+		<listener
+			class-name="com.infinite.netsfere.automationtool.reports.ExtentReporterNG" />
+	</listeners>
+	<test name="Start Appium">
+		<classes>
+			<class name="com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup">
+				<methods>
+					<include name="startAppiumServerNetsfere"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+	<!-- ########################################################
+				Custom test call flow starts here 
+		##########################################################-->
+		
+	<test name="Login Related Test">
+		<classes>
+			<class name="com.infinite.netsfere.automationtool.modules.web.test.WebLoginTestCases">
+				<methods>
+					<include name="login"></include>					
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.modules.android.test.LoginTestCases">
+				<methods>
+					<include name="goToLoginScreen"></include>
+					<include name="loginWithValidCredentials"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<!-- <test name="Conversation Related Test">		
+		<classes>
+			<class name="com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases">
+				<methods>
+					<include name="createConversationWithoutTitle"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.asserts.AssertionsAndroid">
+				<methods>
+					<include name="withoutTitleAssertion"></include>
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases">
+				<methods>
+					<include name="createConversationWithoutTitle"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.asserts.AssertionWeb">
+				<methods>
+					<include name="webWithoutTitleAssertion"></include>						
+				</methods>
+			</class>
+			
+			<class name="com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases">
+				<methods>
+					<include name="modifyDefaultTitle"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.asserts.AssertionWeb">
+				<methods>
+					<include name="modifiedTitle"></include>						
+				</methods>
+			</class>
+			
+			<class name="com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases">
+				<methods>
+					<include name="updateExistingConversationTitleFromChatScreen"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.asserts.AssertionsAndroid">
+				<methods>
+					<include name="updateTitleAssertion"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases">
+				<methods>
+					<include name="createConversationWebWithTitle"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.asserts.AssertionsAndroid">
+				<methods>
+					<include name="conversationWithTitleAssertion"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases ">
+				<methods>
+					<include name="createConversationWithTitle"></include>						
+				</methods>
+			</class>
+			<class name="com.infinite.netsfere.automationtool.asserts.AssertionWeb">
+				<methods>
+					<include name="conversationWithTitle"></include>						
+				</methods>
+			</class>
+			
+			<class name="com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases">
+				<methods>
+					<include name="createConversationWebWithTitle"></include>						
+				</methods>
+			</class>
+			
+			<class name="com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases">
+				<methods>
+					<include name="conversationWithTitleAssertion"></include>						
+				</methods>
+			</class>
+			
+			<class name="com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases">
+				<methods>
+					<include name="createGroupConversationWithTitle"></include>						
+				</methods>
+			</class>
+
+			
+			
+		</classes>
+	</test> -->
+	
+	
+	
+	
+	<!-- ################################################
+				Custom test call flow ends here 
+		################################################## -->
+	
+	
+	
+	
+	
+	<test name="Stop Appium">
+		<classes>
+			<class name="com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup">
+				<methods>
+					<include name="stopAppiumServerNetsfere"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

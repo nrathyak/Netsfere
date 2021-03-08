@@ -1,0 +1,41 @@
+######################################################################################################
+# This file is intended to store all user credentials like android, web and ios and so on
+# IMPORTANT: This file shouldn't be committed to repository. This is for individual tester use only.  
+######################################################################################################
+
+# Web user account
+webUser = h1@himadri.netsferetest.org
+WebUser_DisplayName = h1
+
+# Android user account
+android_user = h2@himadri.netsferetest.org
+AndroidUser_DisplayName = h2
+
+# Ios user account
+iosUser = iphone7@murali.netsferetest.org
+iosUserDisplayName = iphone7
+
+# Web user2 account
+webSecondUserDisplayName = firefox
+webSecondUser = firefox@murali.netsferetest.org
+
+# Guest user account
+guestUser = guestuser2018_2019@sanjay.netsferetest.org
+password = abcdefgh
+
+# Dracoon account
+Dracoon_account_username = murali.tallapudi@netsfere.com
+Dracoon_account_password = Tmk@swan1
+
+# Box user account
+Box_account_email = convergenceinfinite@gmail.com
+Box_account_password = infinite@123
+
+# Channel names
+channelNameForWeb = WebWriteableChannel
+channelNameForAndroid=AndroidWriteableChannel
+
+# Guest activation mails come to this email
+testGamailId = nrathya.kudva@netsfere.com
+testGmailPassword = Nestfere1234
+guestUserDomain = murali.netsferetest.org

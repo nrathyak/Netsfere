@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom test suite">
+	<listeners>
+		<listener
+			class-name="com.infinite.netsfere.automationtool.reports.ExtentReporterNG" />
+	</listeners>
+	<test name="Setup">
+		<classes>
+			<class name="com.infinite.netsfere.automationtool.utils.InitAndroidSetup"></class>
+		</classes>
+	</test>
+
+	<!-- Custom test call flow starts here -->
+	<test name="Login Test">
+		<classes>
+			<class
+				name="com.infinite.netsfere.automationtool.modules.android.test.LoginTestCases">
+				<methods>
+					<include name="goToLoginScreen"></include>
+					<include name="loginWithValidCredentials"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Send Message in Conversation">
+		<classes>
+			<class
+				name="com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases">
+				<methods>
+					<parameter name="title" value="User2"></parameter>
+					<include name="searchForParticularConversationAndOpen"></include>
+					<include name="sendMessageFromChatScreen"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Send Message in random conversation">
+		<classes>
+			<class
+				name="com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases">
+				<methods>
+					<include name="searchForRandomConversationAndOpen"></include>
+					<include name="sendMessageFromChatScreen"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!-- Custom test call flow ends here -->
+	
+	<test name="Stop">
+		<classes>
+			<class name="com.infinite.netsfere.automationtool.utils.KillAndroidSetup"></class>
+		</classes>
+	</test>
+</suite> 

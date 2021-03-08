@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.infinite.netsfere.automationtool.AppTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.411 s - in com.infinite.netsfere.automationtool.AppTest

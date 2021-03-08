@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\NetSfereAutomationProject\AutomationTool\Conversations.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.infinite.netsfere.automationtool.suits.EndToEndRegression" hash-for-method="webMuteConversationFromAllConversationPage">webMuteConversationFromAllConversationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.infinite.netsfere.automationtool.suits.EndToEndRegression" hash-for-method="loginToWeb">loginToWeb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.infinite.netsfere.automationtool.suits.EndToEndRegression</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="webMuteConversationFromAllConversationPage">
+                  </a> <!-- webMuteConversationFromAllConversationPage -->
+                  <span class="method-name">webMuteConversationFromAllConversationPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span/button//span[@class=&apos;icon ion-android-more-vertical&apos;]&quot;}
+  (Session info: chrome=88.0.4324.182)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;CV011020435&apos;, ip: &apos;192.168.43.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\nrathyak\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57620}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}
+Session ID: c38733fbbb6263ca78fc67ca85d49250
+*** Element info: {Using=xpath, value=//span/button//span[@class=&apos;icon ion-android-more-vertical&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy30.click(Unknown Source)
+	at com.infinite.netsfere.automationtool.modules.web.pages.WebConversationsPage.clickOnConvMoreOptions(WebConversationsPage.java:381)
+	at com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases.favoriteConversationFromAllTab(WebConversationTestCases.java:1011)
+	at com.infinite.netsfere.automationtool.suits.EndToEndRegression.webMuteConversationFromAllConversationPage(EndToEndRegression.java:710)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.infinite.netsfere.automationtool.suits.EndToEndRegression</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToWeb">
+                  </a> <!-- loginToWeb -->
+                  <span class="method-name">loginToWeb</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\NetSfereAutomationProject\AutomationTool\Conversations.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.infinite.netsfere.automationtool.reports.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.infinite.netsfere.automationtool.suits.EndToEndRegression&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginToWeb&quot;/&gt;
+          &lt;include name=&quot;webMuteConversationFromAllConversationPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.infinite.netsfere.automationtool.suits.EndToEndRegression --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">conversation</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">webMuteConversationFromAllConversationPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginToWeb</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginToWeb')
+data.setCell(0, 2, 'com.infinite.netsfere.automationtool.suits.EndToEndRegression')
+data.setCell(0, 3, 88509);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'webMuteConversationFromAllConversationPage')
+data.setCell(1, 2, 'com.infinite.netsfere.automationtool.suits.EndToEndRegression')
+data.setCell(1, 3, 32761);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">107 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.infinite.netsfere.automationtool.suits.EndToEndRegression</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">androidCanEditMeetingPointURL</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesOneToOneCallToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">createQuickPollFromAndroidAndParticipantsVote</span>
+                <br/>
+                <span class="ignored-method-name">webStopGroupCallMeeting</span>
+                <br/>
+                <span class="ignored-method-name">androidRemoveGuestUserFromAConversation</span>
+                <br/>
+                <span class="ignored-method-name">webCanNavigateToHelpPage</span>
+                <br/>
+                <span class="ignored-method-name">androidSendMessageToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">androidCanEditMobileNumber</span>
+                <br/>
+                <span class="ignored-method-name">loginFromSecondWebUser</span>
+                <br/>
+                <span class="ignored-method-name">androidStopOneToOneMeeting</span>
+                <br/>
+                <span class="ignored-method-name">webInitiateNewCallFromCallLogPage</span>
+                <br/>
+                <span class="ignored-method-name">webCanNavigateToLegalAndPrivacyPage</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiatesCallAndWebNoAnswer</span>
+                <br/>
+                <span class="ignored-method-name">androidCanNavigateToLegalAndPrivacyPage</span>
+                <br/>
+                <span class="ignored-method-name">webConversationCleanUp</span>
+                <br/>
+                <span class="ignored-method-name">androidCanConfigureVideoCaptureQuality</span>
+                <br/>
+                <span class="ignored-method-name">acceptMeetingFromAndroid</span>
+                <br/>
+                <span class="ignored-method-name">androidEnablePopUpNotification</span>
+                <br/>
+                <span class="ignored-method-name">androidSendQuickReplyAndWebReads</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesAGroupCallAndAndroidRejectsTheCall</span>
+                <br/>
+                <span class="ignored-method-name">webStartLiveMeeting</span>
+                <br/>
+                <span class="ignored-method-name">webCreateMeetingForGroupCallFromConversation</span>
+                <br/>
+                <span class="ignored-method-name">webCantWriteToAReadableChannel</span>
+                <br/>
+                <span class="ignored-method-name">androidWritesToWriteableChannelAndWebReadsTheMessage</span>
+                <br/>
+                <span class="ignored-method-name">guestLabelInWeb</span>
+                <br/>
+                <span class="ignored-method-name">webCreateConversationWithExistingGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">androidCreateMeetingForOneToOneCallFromMeetingsPage</span>
+                <br/>
+                <span class="ignored-method-name">webOwnerCanMuteAllParticipants</span>
+                <br/>
+                <span class="ignored-method-name">androidChangePassword</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiatesAGroupCallAndParticipantsAccept</span>
+                <br/>
+                <span class="ignored-method-name">webWritesToWriteableChannelAndAndroidReadsTheMessage</span>
+                <br/>
+                <span class="ignored-method-name">webStopOneToOneMeeting</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesAGroupCallAndParticipantsLeaveTheCall</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiatesCallAndWebDeclines</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiatesOneToOneCallToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">webDeleteMultipleCallLogs</span>
+                <br/>
+                <span class="ignored-method-name">webCreateMeetingForOneToOneCallFromMeetingsPage</span>
+                <br/>
+                <span class="ignored-method-name">androidCreatingMeetingForLiveFromChatPage</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiatesAGroupCallAndWebRejectsTheCall</span>
+                <br/>
+                <span class="ignored-method-name">androidCanEditQuickReply</span>
+                <br/>
+                <span class="ignored-method-name">androidCreateConversationWithExistingGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">androidCreateMeetingForGroupCallFromMeetingsPage</span>
+                <br/>
+                <span class="ignored-method-name">webMakesAGroupCallToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">webCreateMeetingForOneToOneCallFromConversation</span>
+                <br/>
+                <span class="ignored-method-name">androidCreateMeetingForGroupCallFromConversation</span>
+                <br/>
+                <span class="ignored-method-name">webSendQuickReplyAndAndroidReads</span>
+                <br/>
+                <span class="ignored-method-name">webSearchAndSelectChannelAndCancelChannel</span>
+                <br/>
+                <span class="ignored-method-name">webMuteTheCall</span>
+                <br/>
+                <span class="ignored-method-name">webSearchMissedCallFromMissedCallTab</span>
+                <br/>
+                <span class="ignored-method-name">androidAddGuestUserToExistingConversation</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiatesCallFromExistingCallLogs</span>
+                <br/>
+                <span class="ignored-method-name">androidCanViewVersionInfo</span>
+                <br/>
+                <span class="ignored-method-name">webunMuteConversationFromAllConversationPage</span>
+                <br/>
+                <span class="ignored-method-name">androidStartBroadcastLiveEndBroadcastLive</span>
+                <br/>
+                <span class="ignored-method-name">androidDeleteAllCallLogs</span>
+                <br/>
+                <span class="ignored-method-name">createQuickPollFromWebAndParticipantsVote</span>
+                <br/>
+                <span class="ignored-method-name">guestLabelInAndroid</span>
+                <br/>
+                <span class="ignored-method-name">androidMakesAGroupCallToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">webSendsMessageDuringCall</span>
+                <br/>
+                <span class="ignored-method-name">androidStartLiveMeeting</span>
+                <br/>
+                <span class="ignored-method-name">androidOwnerCanMuteAllParticipants</span>
+                <br/>
+                <span class="ignored-method-name">webStartOneToOneMeeting</span>
+                <br/>
+                <span class="ignored-method-name">androidDisablePopUpNotification</span>
+                <br/>
+                <span class="ignored-method-name">androidEnableNetsfereRingtone</span>
+                <br/>
+                <span class="ignored-method-name">androidStartOneToOneMeeting</span>
+                <br/>
+                <span class="ignored-method-name">webCreatingMeetingFromChatPage</span>
+                <br/>
+                <span class="ignored-method-name">webStartGroupCallMeeting</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesCallAndMissedCallAtAndroid</span>
+                <br/>
+                <span class="ignored-method-name">androidLogoutFromSettingsPage</span>
+                <br/>
+                <span class="ignored-method-name">webCreateMeetingForGroupCallFromMeetingsPage</span>
+                <br/>
+                <span class="ignored-method-name">webStopLiveMeeting</span>
+                <br/>
+                <span class="ignored-method-name">webCanEditMeetingPointURL</span>
+                <br/>
+                <span class="ignored-method-name">loginToAndroid</span>
+                <br/>
+                <span class="ignored-method-name">webRemoveGuestFromAConversation</span>
+                <br/>
+                <span class="ignored-method-name">androidSearchAndSelectChannelAndCancelChannel</span>
+                <br/>
+                <span class="ignored-method-name">webCanEditQuickReply</span>
+                <br/>
+                <span class="ignored-method-name">webSendLocationToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">webAddGuestUserToExistingConversation</span>
+                <br/>
+                <span class="ignored-method-name">acceptMeetingFromWeb</span>
+                <br/>
+                <span class="ignored-method-name">androidCreateMeetingForOneToOneCallFromConversation</span>
+                <br/>
+                <span class="ignored-method-name">webInitiateAGroupCallAndParticipantsAccept</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiatesOneToOneCallAndWebAccepts</span>
+                <br/>
+                <span class="ignored-method-name">androidSendLocationToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">androidSendLocationInWriteableChannel</span>
+                <br/>
+                <span class="ignored-method-name">androidCanViewDeveloperInfo</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesOneToOneCallAndAndroidAccepts</span>
+                <br/>
+                <span class="ignored-method-name">androidCanNavigateToOpenSourceLicences</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesCallAndAndroidRejects</span>
+                <br/>
+                <span class="ignored-method-name">androidInitiateNewCallFromCallLogPage</span>
+                <br/>
+                <span class="ignored-method-name">webDeleteAllCallLogs</span>
+                <br/>
+                <span class="ignored-method-name">webCanViewDeveloperInfo</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesCallFromExistingCallLogs</span>
+                <br/>
+                <span class="ignored-method-name">androidDisableNetsfereRingtone</span>
+                <br/>
+                <span class="ignored-method-name">androidStopLiveMeeting</span>
+                <br/>
+                <span class="ignored-method-name">androidCreatingMeetingForLiveFromMeetingPage</span>
+                <br/>
+                <span class="ignored-method-name">webSendMessageToGuestUser</span>
+                <br/>
+                <span class="ignored-method-name">webStartBroadcastLiveAndEndBroadcastLive</span>
+                <br/>
+                <span class="ignored-method-name">webToggleSpeaker</span>
+                <br/>
+                <span class="ignored-method-name">webInitiatesAGroupCallAndAndroidRejoinsTheCall</span>
+                <br/>
+                <span class="ignored-method-name">androidDestroyConversationWithGuest</span>
+                <br/>
+                <span class="ignored-method-name">webSendLocationInWriteableChannel</span>
+                <br/>
+                <span class="ignored-method-name">webDestroyConversationWithGuest</span>
+                <br/>
+                <span class="ignored-method-name">androidCantWriteToAReadableChannel</span>
+                <br/>
+                <span class="ignored-method-name">androidSearchMissedCallFromMissedCallTab</span>
+                <br/>
+                <span class="ignored-method-name">webCreatingMeetingForLiveFromMeetingPage</span>
+                <br/>
+                <span class="ignored-method-name">webCanViewVersionInfo</span>
+                <br/>
+                <span class="ignored-method-name">webChangePassword</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.infinite.netsfere.automationtool.suits.EndToEndRegression</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadProperties</span>
+                <span class="method-start">17253 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">makeSureWeAreInCorrectPageBeforeExecutingTestCase(public void com.infinite.netsfere.automationtool.suits.EndToEndRegression.loginToWeb() throws java.l...)</span>
+                <span class="method-start">152338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginToWeb</span>
+                <span class="method-start">152341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">makeSureWeAreInCorrectPageBeforeExecutingTestCase(public void com.infinite.netsfere.automationtool.suits.EndToEndRegression.webMuteConversationFromAll...)</span>
+                <span class="method-start">240858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webMuteConversationFromAllConversationPage</span>
+                <span class="method-start">240887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">stopTest</span>
+                <span class="method-start">273665 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

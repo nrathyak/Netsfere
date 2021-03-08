@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="107" total="109" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="279756" started-at="2021-02-26T12:57:14Z" finished-at="2021-02-26T13:01:54Z">
+    <groups>
+      <group name="login">
+        <method signature="EndToEndRegression.loginToWeb()[pri:19, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="loginToWeb" class="com.infinite.netsfere.automationtool.suits.EndToEndRegression"/>
+      </group> <!-- login -->
+      <group name="conversation">
+        <method signature="EndToEndRegression.webMuteConversationFromAllConversationPage()[pri:109, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="webMuteConversationFromAllConversationPage" class="com.infinite.netsfere.automationtool.suits.EndToEndRegression"/>
+      </group> <!-- conversation -->
+    </groups>
+    <test name="Test" duration-ms="279756" started-at="2021-02-26T12:57:14Z" finished-at="2021-02-26T13:01:54Z">
+      <class name="com.infinite.netsfere.automationtool.suits.EndToEndRegression">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="beforeClass" is-config="true" duration-ms="17253" started-at="2021-02-26T12:57:14Z" finished-at="2021-02-26T12:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="LoadProperties()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="LoadProperties" is-config="true" duration-ms="135071" started-at="2021-02-26T12:57:31Z" finished-at="2021-02-26T12:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadProperties -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="3" started-at="2021-02-26T12:59:46Z" finished-at="2021-02-26T12:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToEndRegression.loginToWeb() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="loginToWeb()[pri:19, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="loginToWeb" duration-ms="88509" started-at="2021-02-26T12:59:46Z" finished-at="2021-02-26T13:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToWeb -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="29" started-at="2021-02-26T13:01:15Z" finished-at="2021-02-26T13:01:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToEndRegression.webMuteConversationFromAllConversationPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="FAIL" signature="webMuteConversationFromAllConversationPage()[pri:109, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="webMuteConversationFromAllConversationPage" duration-ms="32761" started-at="2021-02-26T13:01:15Z" finished-at="2021-02-26T13:01:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span/button//span[@class='icon ion-android-more-vertical']"}
+  (Session info: chrome=88.0.4324.182)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CV011020435', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\nrathyak\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57620}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}
+Session ID: c38733fbbb6263ca78fc67ca85d49250
+*** Element info: {Using=xpath, value=//span/button//span[@class='icon ion-android-more-vertical']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span/button//span[@class='icon ion-android-more-vertical']"}
+  (Session info: chrome=88.0.4324.182)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CV011020435', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\nrathyak\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57620}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}
+Session ID: c38733fbbb6263ca78fc67ca85d49250
+*** Element info: {Using=xpath, value=//span/button//span[@class='icon ion-android-more-vertical']}
+at sun.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy30.click(Unknown Source)
+at com.infinite.netsfere.automationtool.modules.web.pages.WebConversationsPage.clickOnConvMoreOptions(WebConversationsPage.java:381)
+at com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases.favoriteConversationFromAllTab(WebConversationTestCases.java:1011)
+at com.infinite.netsfere.automationtool.suits.EndToEndRegression.webMuteConversationFromAllConversationPage(EndToEndRegression.java:710)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webMuteConversationFromAllConversationPage -->
+        <test-method status="PASS" signature="stopTest()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="stopTest" is-config="true" duration-ms="6073" started-at="2021-02-26T13:01:47Z" finished-at="2021-02-26T13:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.infinite.netsfere.automationtool.suits.EndToEndRegression -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

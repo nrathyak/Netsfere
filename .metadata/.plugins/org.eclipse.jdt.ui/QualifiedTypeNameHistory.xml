@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxOptions"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+<fullyQualifiedTypeName name="io.appium.java_client.touch.TapOptions"/>
+<fullyQualifiedTypeName name="com.infinite.netsfere.automationtool.utils.Config"/>
+<fullyQualifiedTypeName name="io.appium.java_client.pagefactory.AndroidFindBys"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

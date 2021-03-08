@@ -1,0 +1,600 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>66/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 25 16:04:03 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>4212 seconds (4212506 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>messageForwarding settings inlineReply logout Channel guest login meeting conversation </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendLocation()'><b>androidSendLocation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@resource-id=&apos;com.infinite.netsfere:id/action_done&apos; and @index=&apos;0&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.infinite.netsfere.automationtool.modules.android.pages.ChatPage.addLocationLink(ChatPage.java:388)
+	at com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases.sendMyLocation(ConversationTestCases.java:369)
+	at com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendLocation(EndToENdSanity.java:397)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3f2ef586 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)
+	... 30 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@resource-id=&apos;com.infinite.netsfere:id/action_done&apos; and @index=&apos;0&apos;]})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;CV011020435&apos;, ip: &apos;192.168.43.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 32 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2064883371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2064883371'><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@resource-id=&apos;com.infinite.netsfere:id/action_done&apos; and @index=&apos;0&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.infinite.netsfere.automationtool.modules.android.pages.ChatPage.addLocationLink(ChatPage.java:388)
+	at com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases.sendMyLocation(ConversationTestCases.java:369)
+	at com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendLocation(EndToENdSanity.java:397)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3f2ef586 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)
+	... 30 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@resource-id=&apos;com.infinite.netsfere:id/action_done&apos; and @index=&apos;0&apos;]})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;CV011020435&apos;, ip: &apos;192.168.43.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 32 more
+</pre></div></td>
+<td>58</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webChangePassword()'><b>webChangePassword</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=88.0.4324.182)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;CV011020435&apos;, ip: &apos;192.168.43.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\nrathyak\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58849}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}
+Session ID: 5ccfc04d317538a6e8d6fe259d266faa
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy30.sendKeys(Unknown Source)
+	at com.infinite.netsfere.automationtool.modules.web.pages.WebSettingsPage.clickChangePassword(WebSettingsPage.java:192)
+	at com.infinite.netsfere.automationtool.modules.web.test.SettingsTestCases.webCanChangePassword(SettingsTestCases.java:44)
+	at com.infinite.netsfere.automationtool.suits.EndToENdSanity.webChangePassword(EndToENdSanity.java:1139)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1855734078", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1855734078'><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=88.0.4324.182)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;CV011020435&apos;, ip: &apos;192.168.43.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\nrathyak\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58849}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}
+Session ID: 5ccfc04d317538a6e8d6fe259d266faa
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy30.sendKeys(Unknown Source)
+	at com.infinite.netsfere.automationtool.modules.web.pages.WebSettingsPage.clickChangePassword(WebSettingsPage.java:192)
+	at com.infinite.netsfere.automationtool.modules.web.test.SettingsTestCases.webCanChangePassword(SettingsTestCases.java:44)
+	at com.infinite.netsfere.automationtool.suits.EndToENdSanity.webChangePassword(EndToENdSanity.java:1139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.acceptMeetingFromAndroid()'><b>acceptMeetingFromAndroid</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>5</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.acceptMeetingFromWeb()'><b>acceptMeetingFromWeb</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>17</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.addParticipantInAndroid()'><b>addParticipantInAndroid</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>92</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.addParticipantInWeb()'><b>addParticipantInWeb</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>67</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidAddGuestUserToExistingConversation()'><b>androidAddGuestUserToExistingConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>85</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidCanEditMeetingPointURL()'><b>androidCanEditMeetingPointURL</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>8</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidChangePassword()'><b>androidChangePassword</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>20</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidCreate1_1ConversationwithWebWithTitle()'><b>androidCreate1_1ConversationwithWebWithTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>35</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidCreate1_1ConversationwithWebWithoutTitle()'><b>androidCreate1_1ConversationwithWebWithoutTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>28</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidCreateConversationWithANewGuestUser()'><b>androidCreateConversationWithANewGuestUser</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>39</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidCreateConversationWithExistingGuestUser()'><b>androidCreateConversationWithExistingGuestUser</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>35</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidCreateMeetingForGroupCallFromMeetingsPage()'><b>androidCreateMeetingForGroupCallFromMeetingsPage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>58</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidCreateMeetingForOneToOneCallFromConversation()'><b>androidCreateMeetingForOneToOneCallFromConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>36</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidDestroyConversationAsOwner()'><b>androidDestroyConversationAsOwner</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>104</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidExportFirstConversation()'><b>androidExportFirstConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>51</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidForwardAttachment()'><b>androidForwardAttachment</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>106</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidForwardMessage()'><b>androidForwardMessage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>64</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidGroupConversationWithTitle()'><b>androidGroupConversationWithTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>55</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidInlineReply()'><b>androidInlineReply</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>40</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidLeavesConversationAsParticipant()'><b>androidLeavesConversationAsParticipant</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>176</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidModifyDefaultTitle()'><b>androidModifyDefaultTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>20</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidMuteConversation()'><b>androidMuteConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>53</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidRemoveParticipant()'><b>androidRemoveParticipant</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>95</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendAttachmentFromBox()'><b>androidSendAttachmentFromBox</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>71</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendMessageToGuestUser()'><b>androidSendMessageToGuestUser</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>52</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendQuickReply()'><b>androidSendQuickReply</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>69</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendingMessageInStreamlinedConversationUsingCreateButton()'><b>androidSendingMessageInStreamlinedConversationUsingCreateButton</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>29</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidSendsMessage()'><b>androidSendsMessage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>76</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidTransferOwnershipAndLeaveConversation()'><b>androidTransferOwnershipAndLeaveConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>111</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidWritesToWriteableChannelAndWebReadsTheMessage()'><b>androidWritesToWriteableChannelAndWebReadsTheMessage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>46</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.loginToAndroid()'><b>loginToAndroid</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>36</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.loginToWeb()'><b>loginToWeb</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>33</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.logoutFromAndroid()'><b>logoutFromAndroid</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>5</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.logoutFromWeb()'><b>logoutFromWeb</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>10</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.searchSelectConversationInAndroid()'><b>searchSelectConversationInAndroid</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>34</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.searchSelectConversationInWeb()'><b>searchSelectConversationInWeb</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>37</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webAddGuestUserToExistingConversation()'><b>webAddGuestUserToExistingConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>70</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCanChangeProfilePic()'><b>webCanChangeProfilePic</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>28</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCanEditMeetingPointURL()'><b>webCanEditMeetingPointURL</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>4</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCreate1_1ConversationWithAndroidWithTitle()'><b>webCreate1_1ConversationWithAndroidWithTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>35</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCreate1_1ConversationWithAndroidWithoutTitle()'><b>webCreate1_1ConversationWithAndroidWithoutTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>28</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCreateConversationWithANewGuestUser()'><b>webCreateConversationWithANewGuestUser</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>52</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCreateConversationWithExistingGuestUser()'><b>webCreateConversationWithExistingGuestUser</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>34</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCreateMeetingForGroupCallFromMeetingsPage()'><b>webCreateMeetingForGroupCallFromMeetingsPage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>70</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webCreateMeetingForOneToOneCallFromConversation()'><b>webCreateMeetingForOneToOneCallFromConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>49</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webDestroyConversationAsOwner()'><b>webDestroyConversationAsOwner</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>99</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webExportFirstConversation()'><b>webExportFirstConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>55</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webForwardsAMessage()'><b>webForwardsAMessage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>53</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webForwardsAMessageToMultipleConversations()'><b>webForwardsAMessageToMultipleConversations</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>54</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webForwardsAttachment()'><b>webForwardsAttachment</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>121</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webGroupConversationWithTitle()'><b>webGroupConversationWithTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>43</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webInlineReply()'><b>webInlineReply</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>51</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webLeavesConversationAsParticipant()'><b>webLeavesConversationAsParticipant</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>121</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webModifyDefaultTitle()'><b>webModifyDefaultTitle</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>70</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webMuteConversation()'><b>webMuteConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>56</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webRemoveParticipant()'><b>webRemoveParticipant</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>50</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSaveAttachmentToDevice()'><b>webSaveAttachmentToDevice</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>21</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendAttachmentFromDevice()'><b>webSendAttachmentFromDevice</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>97</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendAttachmentsToWritableChannelAndroidReceive()'><b>webSendAttachmentsToWritableChannelAndroidReceive</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>85</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendMessageToGuestUser()'><b>webSendMessageToGuestUser</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>62</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendQuickReply()'><b>webSendQuickReply</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>70</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendingAttachementToGuestUser()'><b>webSendingAttachementToGuestUser</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>123</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendingMessageInStreamlinedConversationUsingCreateButton()'><b>webSendingMessageInStreamlinedConversationUsingCreateButton</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>35</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendsMessage()'><b>webSendsMessage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>58</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webTransferOwnershipAndLeaveConversation()'><b>webTransferOwnershipAndLeaveConversation</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>94</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+<tr>
+<td title='com.infinite.netsfere.automationtool.suits.EndToENdSanity.webWritesToWriteableChannelAndAndroidReadsTheMessage()'><b>webWritesToWriteableChannelAndAndroidReadsTheMessage</b><br>Test class: com.infinite.netsfere.automationtool.suits.EndToENdSanity</td>
+<td></td>
+<td>43</td>
+<td>com.infinite.netsfere.automationtool.suits.EndToENdSanity@67b92f0a</td></tr>
+</table><p>
+</body>
+</html>

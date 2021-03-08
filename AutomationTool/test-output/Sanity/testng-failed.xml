@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity]">
+  <listeners>
+    <listener class-name="com.infinite.netsfere.automationtool.reports.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+        <include name="conversation"/>
+        <include name="guest"/>
+        <include name="Channel"/>
+        <include name="meeting"/>
+        <include name="settings"/>
+        <include name="messageForwarding"/>
+        <include name="inlineReply"/>
+        <include name="logout"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.infinite.netsfere.automationtool.suits.EndToENdSanity">
+        <methods>
+          <include name="androidSendLocation"/>
+          <include name="beforeClass"/>
+          <include name="webChangePassword"/>
+          <include name="stopTest"/>
+          <include name="LoadProperties"/>
+          <include name="makeSureWeAreInCorrectPageBeforeExecutingTestCase"/>
+        </methods>
+      </class> <!-- com.infinite.netsfere.automationtool.suits.EndToENdSanity -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Sanity] -->
