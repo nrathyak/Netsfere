@@ -17,7 +17,7 @@
 				<include name="settings"></include> 
 				<include name="messageForwarding"></include> 
 				<include name="inlineReply"></include>  
-				<include name="logout"></include>  
+				
 
  
 			</run>
