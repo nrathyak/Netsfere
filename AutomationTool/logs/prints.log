@@ -1386,3 +1386,169 @@
 18:30:54.622 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -New feature intro page isnt available
 18:31:23.610 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
 18:31:47.934 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Killing the exisiting appium sessions...
+11:55:31.938 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Starting appium server...
+11:55:41.974 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Waiting for appium server to start.....
+11:55:47.834 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -appium server started.....
+11:55:57.784 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android device list : f5a4c341521e
+11:55:57.941 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android version : 10
+11:55:57.945 [main] INFO  com.infinite.netsfere.automationtool.utils.DriverManager -Connecting to Android device
+11:57:32.838 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+11:57:54.346 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+11:58:44.798 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:00:15.937 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:00:59.161 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:02:08.691 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:02:49.885 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:03:57.417 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:06:00.824 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:07:02.022 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:09:43.806 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:12:00.362 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:14:07.204 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:15:16.137 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebExportConversationPage -NetC Conversation exported successfully..!
+12:20:52.139 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:22:05.940 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:25:09.994 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:27:25.455 [main] ERROR com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -Unable to send Attachment
+12:28:02.693 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+12:28:28.283 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+12:28:39.892 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+12:28:56.931 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Killing the exisiting appium sessions...
+12:56:59.386 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Starting appium server...
+12:57:09.416 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Waiting for appium server to start.....
+12:57:13.762 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -appium server started.....
+12:57:21.316 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android device list : f5a4c341521e
+12:57:21.488 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android version : 10
+12:57:21.493 [main] INFO  com.infinite.netsfere.automationtool.utils.DriverManager -Connecting to Android device
+12:59:14.106 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+12:59:35.458 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:00:13.877 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:01:22.777 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:01:45.440 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:02:14.831 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:02:34.571 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:03:10.418 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:04:21.972 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:05:02.681 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:06:57.358 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:09:15.646 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:11:23.070 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:12:28.730 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebExportConversationPage -NetC Conversation exported successfully..!
+13:12:49.387 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:13:45.629 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:17:16.249 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:19:51.650 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:32:14.033 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+13:33:18.903 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Killing the exisiting appium sessions...
+12:13:17.877 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Starting appium server...
+12:13:27.811 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Waiting for appium server to start.....
+12:13:31.589 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -appium server started.....
+12:13:39.044 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android device list : f5a4c341521e
+12:13:39.266 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android version : 10
+12:13:39.403 [main] INFO  com.infinite.netsfere.automationtool.utils.DriverManager -Connecting to Android device
+12:15:12.394 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+12:16:02.695 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.LoginPage -New feature intro page isnt available
+12:16:03.715 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:17:03.296 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:18:22.168 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Starting appium server...
+12:18:32.178 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Waiting for appium server to start.....
+12:18:35.680 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -appium server started.....
+12:18:39.042 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android device list : f5a4c341521e
+12:18:39.239 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android version : 10
+12:18:39.247 [main] INFO  com.infinite.netsfere.automationtool.utils.DriverManager -Connecting to Android device
+12:20:32.444 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+12:21:23.040 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.LoginPage -New feature intro page isnt available
+12:21:23.795 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:21:59.044 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:34:55.367 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Starting appium server...
+12:35:05.406 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Waiting for appium server to start.....
+12:35:09.262 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -appium server started.....
+12:35:16.664 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android device list : f5a4c341521e
+12:35:16.823 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android version : 10
+12:35:16.828 [main] INFO  com.infinite.netsfere.automationtool.utils.DriverManager -Connecting to Android device
+12:37:05.288 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+12:37:57.041 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.LoginPage -New feature intro page isnt available
+12:37:57.654 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:39:04.549 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:40:35.868 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:41:09.669 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+12:41:45.662 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:43:06.029 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebConversationsPage -Group conversation Created
+12:43:06.031 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:43:58.697 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:46:06.817 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:49:23.521 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:50:30.338 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+12:52:29.402 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.ChatPage -Allow pop up is not coming
+12:52:50.443 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+12:56:34.298 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.GenericListPage -Search icon is not visible, assuming that search box is already expanded.
+12:57:10.229 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.LeaveConversationPage -Conversation left as a participant
+12:57:21.526 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.GenericListPage -Search icon is not visible, assuming that search box is already expanded.
+12:57:45.745 [main] INFO  com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases -Destroyed conversation is not visible
+12:57:59.299 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:00:52.756 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.LeaveConversationPage -Conversation owner transferred ownership and left the conversation
+13:01:21.323 [main] INFO  com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases -Destroyed conversation is not visible
+13:01:33.094 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:02:54.788 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+13:04:29.521 [main] INFO  com.infinite.netsfere.automationtool.modules.android.test.ConversationTestCases -Destroyed conversation is not visible
+13:04:43.059 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:05:29.026 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+13:06:24.394 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.ExportConversationPage -Warning not displayed
+13:06:48.201 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:08:42.742 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:09:52.028 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+13:11:24.961 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:12:21.874 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+13:13:27.338 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+13:17:22.749 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+13:20:49.965 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:24:50.645 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+13:25:55.581 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+13:26:07.983 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+13:26:59.138 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:28:01.033 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:30:27.851 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:34:47.203 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+13:36:09.023 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebContactsPage -Currently not in Contacts page
+13:36:31.242 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Killing the exisiting appium sessions...
+17:11:42.226 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Starting appium server...
+17:11:52.242 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Waiting for appium server to start.....
+17:11:56.252 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -appium server started.....
+17:12:02.653 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android device list : f5a4c341521e
+17:12:02.900 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android version : 10
+17:12:02.911 [main] INFO  com.infinite.netsfere.automationtool.utils.DriverManager -Connecting to Android device
+17:13:25.289 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+17:14:17.499 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.LoginPage -New feature intro page isnt available
+17:15:21.426 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+17:15:43.181 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:17:40.315 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+17:19:39.866 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:23:06.290 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:26:23.900 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:33:48.710 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:38:29.871 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:43:13.982 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:49:11.976 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Killing the exisiting appium sessions...
+17:51:09.641 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Starting appium server...
+17:51:19.653 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Waiting for appium server to start.....
+17:51:22.980 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -appium server started.....
+17:51:28.243 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android device list : f5a4c341521e
+17:51:28.354 [main] INFO  com.infinite.netsfere.automationtool.utils.Config -Reading android version : 10
+17:51:28.359 [main] INFO  com.infinite.netsfere.automationtool.utils.DriverManager -Connecting to Android device
+17:52:43.359 [main] INFO  com.infinite.netsfere.automationtool.modules.web.pages.WebLoginPage -Invalid credential pop up not found
+17:53:39.035 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.LoginPage -New feature intro page isnt available
+17:53:49.936 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+17:54:49.503 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.HDOneToOneCallElements -No pop ups displayed
+17:55:43.668 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.HDOneToOneCallElements -No pop ups displayed
+17:56:05.940 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.GenericListPage -Back Button not present
+17:56:37.571 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+17:56:47.300 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+17:57:09.182 [main] DEBUG com.infinite.netsfere.automationtool.modules.web.test.WebHDOneToOneCallTestCases -
+18:01:36.309 [main] INFO  com.infinite.netsfere.automationtool.modules.android.test.HDOneToOneCallTestCases -.modules.MainDrawerActivity
+18:04:43.678 [main] ERROR com.infinite.netsfere.automationtool.modules.android.pages.HDOneToOneCallElements -No pop ups displayed
+18:05:11.036 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+18:05:32.962 [main] DEBUG com.infinite.netsfere.automationtool.modules.web.test.WebHDOneToOneCallTestCases -
+18:07:48.812 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+18:11:00.941 [main] INFO  com.infinite.netsfere.automationtool.modules.android.pages.ConversationsPage -Currently not in main screen
+18:12:28.600 [main] INFO  com.infinite.netsfere.automationtool.modules.web.test.WebChannelTestcases -In makeSureToBeInNewConversationPage
+18:17:28.289 [main] INFO  com.infinite.netsfere.automationtool.utils.WindowsAppiumSetup -Killing the exisiting appium sessions...

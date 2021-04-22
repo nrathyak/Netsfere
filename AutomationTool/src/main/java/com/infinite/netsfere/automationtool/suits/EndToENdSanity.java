@@ -273,7 +273,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	@Test(groups = { Constants.GROUP_CONVERSATION, Constants.WEB }, priority =21)
 	public void webCreate1_1ConversationWithAndroidWithoutTitle() throws Exception {
 		conv.createConversationWithoutTitle();
-		conv_page_android.withoutTitleAssertion();
+//		conv_page_android.withoutTitleAssertion();
 	}
 
 	@Test(groups = { Constants.GROUP_CONVERSATION }, priority = 22)
@@ -312,7 +312,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	public void webGroupConversationWithTitle() throws Exception {
 		conv.groupConversationWithTitle(Config.getInstance().getAndroidUserDisplayName(),
 				Config.getInstance().getIosUserDisplayName());
-		conv_page_android.conversationWithTitleAssertion();
+//		conv_page_android.conversationWithTitleAssertion();
 	}
 
 	@Test(groups = { Constants.GROUP_CONVERSATION }, priority = 28)
@@ -399,7 +399,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	
 
 
-	@Test(groups = { Constants.GROUP_CONVERSATION }, priority = 42)
+	@Test(groups = { Constants.GROUP_CONVERSATION , Constants.WEB}, priority = 42)
 	@NavigateTo(WebConversationsPage.class)
 	public void webLeavesConversationAsParticipant() throws InterruptedException {
 		conv.leaveConversationAsParticipant();
@@ -411,7 +411,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		conv_page_android.leaveConversationAsParticipantFromConversationPage();
 	}
 
-	@Test(groups = { Constants.GROUP_CONVERSATION }, priority = 44)
+	@Test(groups = { Constants.GROUP_CONVERSATION , Constants.WEB}, priority = 44)
 	public void webTransferOwnershipAndLeaveConversation() throws InterruptedException {
 		conv.transferOwnershipAndLeaveConversation();
 	}
@@ -421,7 +421,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		conv_page_android.transferOwnershipAndLeaveConversation();
 	}
 
-	@Test(groups = { Constants.GROUP_CONVERSATION }, priority = 46)
+	@Test(groups = { Constants.GROUP_CONVERSATION , Constants.WEB}, priority = 46)
 	@NavigateTo(WebConversationsPage.class)
 	public void webDestroyConversationAsOwner() throws InterruptedException {
 		conv.destroyConversationAsOwner();
@@ -433,7 +433,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		conv_page_android.destroyConversationAsOwner();
 	}
 
-	@Test(groups = { Constants.GROUP_CONVERSATION }, priority = 48)
+	@Test(groups = { Constants.GROUP_CONVERSATION, Constants.WEB }, priority = 48)
 	@NavigateTo(WebConversationsPage.class)
 	public void webExportFirstConversation() {
 
@@ -456,12 +456,12 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		conv_page_android.sendImageFromNexus5X();
 	}
 
-	 @Test(groups = { Constants.GROUP_CONVERSATION }, priority = 51)
+	 @Test(groups = { Constants.GROUP_CONVERSATION, Constants.WEB }, priority = 51)
 	public void webSaveAttachmentToDevice() {
 		conv.saveAttachmentToDevice();
 	}
 	 
-	 @Test(groups = { Constants.GROUP_CONVERSATION }, priority = 52)
+	 @Test(groups = { Constants.GROUP_CONVERSATION , Constants.WEB }, priority = 52)
 	 @NavigateTo(WebConversationsPage.class)
 	 public void webSendsMessage() throws Exception {
 		conv.webSendsMessageInAConversation(); 
@@ -475,7 +475,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	 }
 	 
 	 
-		@Test(groups = { Constants.GROUP_CONVERSATION }, priority = 68)
+		@Test(groups = { Constants.GROUP_CONVERSATION , Constants.WEB}, priority = 68)
 		@NavigateTo(WebConversationsPage.class)
 		public void webMuteConversation() throws Exception {
 			// conv.navigateToRecentConversation();
@@ -649,7 +649,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	}
 */
 	
-	@Test(groups = { Constants.GUEST }, priority = 76)
+	@Test(groups = { Constants.GUEST , Constants.WEB }, priority = 76)
 	@NavigateTo(WebConversationsPage.class)
 	public void webCreateConversationWithANewGuestUser() throws InterruptedException {
 //		webSignUp.loginToGmail();
@@ -663,7 +663,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		conv_page_android.createConversationWithANewGuestUser();
 	}
 
-	@Test(groups = { Constants.GUEST }, priority = 78)
+	@Test(groups = { Constants.GUEST , Constants.WEB }, priority = 78)
 	@NavigateTo(WebConversationsPage.class)
 	public void webCreateConversationWithExistingGuestUser() throws InterruptedException {
 		conv.createConversationWithExistingGuestUser();
@@ -675,7 +675,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		conv_page_android.androidNetsfereUserCreateConvWithActivatedGuestUser();
 	}
 
-	@Test(groups = { Constants.GUEST }, priority = 80)
+	@Test(groups = { Constants.GUEST , Constants.WEB}, priority = 80)
 	public void webSendMessageToGuestUser() throws InterruptedException {
 		conv.sendingMessageToGuestUser();
 		// conv.netsfereUserSendDocumentToGuestUser();
@@ -699,7 +699,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 
 
 	
-	@Test(groups = { Constants.GUEST }, priority = 92)
+	@Test(groups = { Constants.GUEST , Constants.WEB}, priority = 92)
 	@NavigateTo(WebConversationsPage.class)
 	public void webAddGuestUserToExistingConversation() throws Exception {
 		conv.addGuestUserToExistingConversation();
@@ -736,7 +736,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		conv_page_android.destroyConversationWithGuest();
 	}
 
-	@Test(groups = { Constants.GUEST }, priority = 98)
+//	@Test(groups = { Constants.GUEST, Constants.WEB }, priority = 98)
 	public void webSendingAttachementToGuestUser() throws FindFailed, InterruptedException {
 		conv.sendPNGToGuestUser();
 		conv.sendPDFToGuestUser();
@@ -792,7 +792,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		androidChannel.sendLocationInChannel();
 	}
 
-	@Test(groups = { Constants.CHANNEL_BROADCAST }, priority = 106)
+	@Test(groups = { Constants.CHANNEL_BROADCAST, Constants.WEB }, priority = 106)
 	@NavigateTo(WebChannelsPage.class)
 	public void webWritesToWriteableChannelAndAndroidReadsTheMessage() {
 		webChannel.sendMessage();
@@ -805,7 +805,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 
 	}
 
-	@Test(groups = { Constants.CHANNEL_BROADCAST }, priority = 108)
+//	@Test(groups = { Constants.CHANNEL_BROADCAST , Constants.WEB}, priority = 108)
 	@NavigateTo(WebChannelsPage.class)
 	public void webSendAttachmentsToWritableChannelAndroidReceive() throws InterruptedException, IOException, FindFailed {
 		webChannel.sendPDFInChannel();
@@ -920,13 +920,13 @@ public class EndToENdSanity extends BaseAndroidSuite {
 /*
 
 */
-	@Test(groups = { Constants.MEETING }, priority = 139)
+//	@Test(groups = { Constants.MEETING, Constants.WEB }, priority = 139)
 	@NavigateTo(WebConversationsPage.class)
 	public void webCreateMeetingForOneToOneCallFromConversation() throws Exception {
 		webMeeting.createMeetingForHDCallFromConversation();
 	}
 	
-	@Test(groups = { Constants.MEETING }, priority = 140)
+//	@Test(groups = { Constants.MEETING }, priority = 140)
 	@NavigateTo(MeetingPage.class)
 	public void acceptMeetingFromAndroid() throws InterruptedException {
 		androidMeeting.acceptMeeting();
@@ -947,13 +947,13 @@ public class EndToENdSanity extends BaseAndroidSuite {
 
 	*/
 
-	@Test(groups = { Constants.MEETING }, priority = 143)
+//	@Test(groups = { Constants.MEETING }, priority = 143)
 	@NavigateTo(ConversationsPage.class)
 	public void androidCreateMeetingForOneToOneCallFromConversation() {
 		androidMeeting.createMeetingForHDCallFromConversationPage();
 	}
 	
-	@Test(groups = { Constants.MEETING }, priority = 144)
+//	@Test(groups = { Constants.MEETING , Constants.WEB}, priority = 144)
 	@NavigateTo(WebMeetingPage.class)
 	public void acceptMeetingFromWeb() {
 		webMeeting.acceptMeeting();
@@ -972,13 +972,13 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	}
 	
 	*/
-	@Test(groups = { Constants.MEETING }, priority = 145)
+//	@Test(groups = { Constants.MEETING , Constants.WEB}, priority = 145)
 	@NavigateTo(WebMeetingPage.class)
 	public void webCreateMeetingForGroupCallFromMeetingsPage() throws InterruptedException {
 		webMeeting.createMeetingForGroupCallFromMeetingPage();
 	}
 
-	@Test(groups = { Constants.MEETING }, priority = 146)
+//	@Test(groups = { Constants.MEETING }, priority = 146)
 	@NavigateTo(MeetingPage.class)
 	public void androidCreateMeetingForGroupCallFromMeetingsPage() {
 		androidMeeting.createMeetingForHDGroupCallFromMeetingPage();
@@ -1133,7 +1133,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	 * Settings regression test cases
 	 */
 
-	@Test(groups = { Constants.SETTINGS }, priority = 161)
+	@Test(groups = { Constants.SETTINGS , Constants.WEB}, priority = 161)
 	@NavigateTo(WebSettingsPage.class)
 	public void webChangePassword() throws Exception {
 		webSettingsTestCases.webCanChangePassword();
@@ -1195,7 +1195,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 		androidSettingsTestCases.androidCanEditMeetingPointURL(); 
 	}
 
-	@Test(groups = { Constants.SETTINGS }, priority = 172)
+	@Test(groups = { Constants.SETTINGS , Constants.WEB}, priority = 172)
 	@NavigateTo(WebSettingsPage.class)
 	public void webCanEditMeetingPointURL() throws Exception {
 		webSettingsTestCases.webCanEditMeetingPointURL();
@@ -1654,7 +1654,7 @@ public class EndToENdSanity extends BaseAndroidSuite {
 	}
 	
 	
-	@Test (groups = { Constants.LOG_OUT}, priority = 230)
+	@Test (groups = { Constants.LOG_OUT, Constants.WEB}, priority = 230)
 	@NavigateTo(WebSettingsPage.class)
 	public void logoutFromWeb() {
 		webSettingsTestCases.logout();	

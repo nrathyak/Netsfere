@@ -5,16 +5,27 @@
     <listener class-name="com.infinite.netsfere.automationtool.reports.ExtentReporterNG"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+        <include name="one_to_one_call"/>
+        <include name="videoCall"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.infinite.netsfere.automationtool.suits.EndToEndRegression">
+      <class name="com.infinite.netsfere.automationtool.suits.EndToENdSanity">
         <methods>
+          <include name="initiateOneToOneVideoCallFromWeb"/>
+          <include name="initiateVideoCallFromWeb"/>
           <include name="beforeClass"/>
-          <include name="webMuteConversationFromAllConversationPage"/>
+          <include name="webInitiateNewCallFromCallLogPage"/>
           <include name="stopTest"/>
+          <include name="initiateVideoCallFromAndroid"/>
           <include name="LoadProperties"/>
+          <include name="initiateOneToOneVideoCallFromAndroid"/>
           <include name="makeSureWeAreInCorrectPageBeforeExecutingTestCase"/>
         </methods>
-      </class> <!-- com.infinite.netsfere.automationtool.suits.EndToEndRegression -->
+      </class> <!-- com.infinite.netsfere.automationtool.suits.EndToENdSanity -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

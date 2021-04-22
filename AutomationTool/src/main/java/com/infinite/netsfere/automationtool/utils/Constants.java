@@ -2,8 +2,8 @@ package com.infinite.netsfere.automationtool.utils;
 
 public interface Constants {
 	
-	String url = "https://web.netsferetest.com";
-	String beta_url = "https://web.netsferebeta.com";
+	String url = "https://web.netsfere.com";
+	String beta_url = "https://web.netsfere.com";
 	String prod_url = "https://web.netsfere.com";
 	String ms4_url="https://ms4.netsferetest.com";
 	String browser = "Chrome";

@@ -21,12 +21,19 @@
     <classes>
       <class name="com.infinite.netsfere.automationtool.suits.EndToENdSanity">
         <methods>
-          <include name="androidSendLocation"/>
+          <include name="androidSendMessageToGuestUser"/>
+          <include name="searchSelectConversationInAndroid"/>
+          <include name="webExportFirstConversation"/>
+          <include name="androidExportFirstConversation"/>
           <include name="beforeClass"/>
-          <include name="webChangePassword"/>
-          <include name="stopTest"/>
+          <include name="androidForwardAttachment"/>
+          <include name="webForwardsAMessage"/>
           <include name="LoadProperties"/>
+          <include name="androidSendAttachmentFromBox"/>
           <include name="makeSureWeAreInCorrectPageBeforeExecutingTestCase"/>
+          <include name="androidCreateConversationWithANewGuestUser"/>
+          <include name="webCreateConversationWithANewGuestUser"/>
+          <include name="stopTest"/>
         </methods>
       </class> <!-- com.infinite.netsfere.automationtool.suits.EndToENdSanity -->
     </classes>

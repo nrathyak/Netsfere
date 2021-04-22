@@ -1,100 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="107" total="109" passed="1">
+<testng-results skipped="0" failed="5" ignored="72" total="85" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="279756" started-at="2021-02-26T12:57:14Z" finished-at="2021-02-26T13:01:54Z">
+  <suite name="Suite" duration-ms="1585323" started-at="2021-03-31T12:21:09Z" finished-at="2021-03-31T12:47:34Z">
     <groups>
+      <group name="videoCall">
+        <method signature="EndToENdSanity.initiateOneToOneVideoCallFromAndroid()[pri:225, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateOneToOneVideoCallFromAndroid" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.initiateOneToOneVideoCallFromWeb()[pri:223, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateOneToOneVideoCallFromWeb" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.initiateVideoCallFromAndroid()[pri:227, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateVideoCallFromAndroid" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.initiateVideoCallFromWeb()[pri:226, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateVideoCallFromWeb" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+      </group> <!-- videoCall -->
+      <group name="Web">
+        <method signature="EndToENdSanity.loginToWeb()[pri:19, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="loginToWeb" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+      </group> <!-- Web -->
+      <group name="one_to_one_call">
+        <method signature="EndToENdSanity.androidInitiateNewCallFromCallLogPage()[pri:194, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="androidInitiateNewCallFromCallLogPage" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.androidInitiatesCallFromContactsAndWebDeclines()[pri:183, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="androidInitiatesCallFromContactsAndWebDeclines" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.androidInitiatesOneToOneCallFromConversationAndWebAccepts()[pri:182, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="androidInitiatesOneToOneCallFromConversationAndWebAccepts" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.webInitiateNewCallFromCallLogPage()[pri:193, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webInitiateNewCallFromCallLogPage" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.webInitiatesCallFromContactsAndAndroidRejects()[pri:185, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webInitiatesCallFromContactsAndAndroidRejects" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.webInitiatesOneToOneCallFromConversationAndAndroidAccepts()[pri:184, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webInitiatesOneToOneCallFromConversationAndAndroidAccepts" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.webSendsMessageDuringCall()[pri:199, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webSendsMessageDuringCall" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+      </group> <!-- one_to_one_call -->
       <group name="login">
-        <method signature="EndToEndRegression.loginToWeb()[pri:19, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="loginToWeb" class="com.infinite.netsfere.automationtool.suits.EndToEndRegression"/>
+        <method signature="EndToENdSanity.loginToAndroid()[pri:20, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="loginToAndroid" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
+        <method signature="EndToENdSanity.loginToWeb()[pri:19, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="loginToWeb" class="com.infinite.netsfere.automationtool.suits.EndToENdSanity"/>
       </group> <!-- login -->
-      <group name="conversation">
-        <method signature="EndToEndRegression.webMuteConversationFromAllConversationPage()[pri:109, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="webMuteConversationFromAllConversationPage" class="com.infinite.netsfere.automationtool.suits.EndToEndRegression"/>
-      </group> <!-- conversation -->
     </groups>
-    <test name="Test" duration-ms="279756" started-at="2021-02-26T12:57:14Z" finished-at="2021-02-26T13:01:54Z">
-      <class name="com.infinite.netsfere.automationtool.suits.EndToEndRegression">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="beforeClass" is-config="true" duration-ms="17253" started-at="2021-02-26T12:57:14Z" finished-at="2021-02-26T12:57:31Z">
+    <test name="Test" duration-ms="1585323" started-at="2021-03-31T12:21:09Z" finished-at="2021-03-31T12:47:34Z">
+      <class name="com.infinite.netsfere.automationtool.suits.EndToENdSanity">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="beforeClass" is-config="true" duration-ms="16948" started-at="2021-03-31T12:21:09Z" finished-at="2021-03-31T12:21:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="LoadProperties()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="LoadProperties" is-config="true" duration-ms="135071" started-at="2021-02-26T12:57:31Z" finished-at="2021-02-26T12:59:46Z">
+        <test-method status="PASS" signature="LoadProperties()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="LoadProperties" is-config="true" duration-ms="71715" started-at="2021-03-31T12:21:25Z" finished-at="2021-03-31T12:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadProperties -->
-        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="3" started-at="2021-02-26T12:59:46Z" finished-at="2021-02-26T12:59:46Z">
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="2" started-at="2021-03-31T12:22:37Z" finished-at="2021-03-31T12:22:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToEndRegression.loginToWeb() throws java.lang.Exception]]>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.loginToWeb() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
-        <test-method status="PASS" signature="loginToWeb()[pri:19, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="loginToWeb" duration-ms="88509" started-at="2021-02-26T12:59:46Z" finished-at="2021-02-26T13:01:15Z">
+        <test-method status="PASS" signature="loginToWeb()[pri:19, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="loginToWeb" duration-ms="26914" started-at="2021-03-31T12:22:37Z" finished-at="2021-03-31T12:23:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToWeb -->
-        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="29" started-at="2021-02-26T13:01:15Z" finished-at="2021-02-26T13:01:15Z">
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="275" started-at="2021-03-31T12:23:04Z" finished-at="2021-03-31T12:23:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToEndRegression.webMuteConversationFromAllConversationPage() throws java.lang.Exception]]>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.loginToAndroid() throws java.io.IOException,java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
-        <test-method status="FAIL" signature="webMuteConversationFromAllConversationPage()[pri:109, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="webMuteConversationFromAllConversationPage" duration-ms="32761" started-at="2021-02-26T13:01:15Z" finished-at="2021-02-26T13:01:47Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="PASS" signature="loginToAndroid()[pri:20, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="loginToAndroid" duration-ms="34609" started-at="2021-03-31T12:23:04Z" finished-at="2021-03-31T12:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAndroid -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="11348" started-at="2021-03-31T12:23:39Z" finished-at="2021-03-31T12:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidInitiatesOneToOneCallFromConversationAndWebAccepts() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="androidInitiatesOneToOneCallFromConversationAndWebAccepts()[pri:182, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="androidInitiatesOneToOneCallFromConversationAndWebAccepts" duration-ms="80536" started-at="2021-03-31T12:23:50Z" finished-at="2021-03-31T12:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidInitiatesOneToOneCallFromConversationAndWebAccepts -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="3172" started-at="2021-03-31T12:25:11Z" finished-at="2021-03-31T12:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidInitiatesCallFromContactsAndWebDeclines() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="androidInitiatesCallFromContactsAndWebDeclines()[pri:183, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="androidInitiatesCallFromContactsAndWebDeclines" duration-ms="71881" started-at="2021-03-31T12:25:14Z" finished-at="2021-03-31T12:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidInitiatesCallFromContactsAndWebDeclines -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="12647" started-at="2021-03-31T12:26:26Z" finished-at="2021-03-31T12:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.webInitiatesOneToOneCallFromConversationAndAndroidAccepts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="webInitiatesOneToOneCallFromConversationAndAndroidAccepts()[pri:184, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webInitiatesOneToOneCallFromConversationAndAndroidAccepts" duration-ms="106972" started-at="2021-03-31T12:26:39Z" finished-at="2021-03-31T12:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webInitiatesOneToOneCallFromConversationAndAndroidAccepts -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="1" started-at="2021-03-31T12:28:26Z" finished-at="2021-03-31T12:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.webInitiatesCallFromContactsAndAndroidRejects() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="webInitiatesCallFromContactsAndAndroidRejects()[pri:185, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webInitiatesCallFromContactsAndAndroidRejects" duration-ms="190401" started-at="2021-03-31T12:28:26Z" finished-at="2021-03-31T12:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webInitiatesCallFromContactsAndAndroidRejects -->
+        <test-method status="FAIL" signature="webInitiateNewCallFromCallLogPage()[pri:193, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webInitiateNewCallFromCallLogPage" duration-ms="164263" started-at="2021-03-31T12:31:36Z" finished-at="2021-03-31T12:34:20Z">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span/button//span[@class='icon ion-android-more-vertical']"}
-  (Session info: chrome=88.0.4324.182)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'CV011020435', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\nrathyak\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57620}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}
-Session ID: c38733fbbb6263ca78fc67ca85d49250
-*** Element info: {Using=xpath, value=//span/button//span[@class='icon ion-android-more-vertical']}]]>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Audio Call…'] (tried for 130 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span/button//span[@class='icon ion-android-more-vertical']"}
-  (Session info: chrome=88.0.4324.182)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Audio Call…'] (tried for 130 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+at com.infinite.netsfere.automationtool.modules.android.pages.HDOneToOneCallElements.incomingAudioCallNotification(HDOneToOneCallElements.java:86)
+at com.infinite.netsfere.automationtool.modules.android.test.HDOneToOneCallTestCases.receivesIncomingHDCall(HDOneToOneCallTestCases.java:177)
+at com.infinite.netsfere.automationtool.suits.EndToENdSanity.webInitiateNewCallFromCallLogPage(EndToENdSanity.java:1299)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Audio Call…']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'CV011020435', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\nrathyak\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57620}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}
-Session ID: c38733fbbb6263ca78fc67ca85d49250
-*** Element info: {Using=xpath, value=//span/button//span[@class='icon ion-android-more-vertical']}
-at sun.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy30.click(Unknown Source)
-at com.infinite.netsfere.automationtool.modules.web.pages.WebConversationsPage.clickOnConvMoreOptions(WebConversationsPage.java:381)
-at com.infinite.netsfere.automationtool.modules.web.test.WebConversationTestCases.favoriteConversationFromAllTab(WebConversationTestCases.java:1011)
-at com.infinite.netsfere.automationtool.suits.EndToEndRegression.webMuteConversationFromAllConversationPage(EndToEndRegression.java:710)
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webInitiateNewCallFromCallLogPage -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="0" started-at="2021-03-31T12:31:36Z" finished-at="2021-03-31T12:31:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.webInitiateNewCallFromCallLogPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="1" started-at="2021-03-31T12:34:20Z" finished-at="2021-03-31T12:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.androidInitiateNewCallFromCallLogPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="androidInitiateNewCallFromCallLogPage()[pri:194, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="androidInitiateNewCallFromCallLogPage" duration-ms="41837" started-at="2021-03-31T12:34:20Z" finished-at="2021-03-31T12:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidInitiateNewCallFromCallLogPage -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="192" started-at="2021-03-31T12:35:02Z" finished-at="2021-03-31T12:35:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.webSendsMessageDuringCall() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="PASS" signature="webSendsMessageDuringCall()[pri:199, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="webSendsMessageDuringCall" duration-ms="157694" started-at="2021-03-31T12:35:02Z" finished-at="2021-03-31T12:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webSendsMessageDuringCall -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="133" started-at="2021-03-31T12:37:40Z" finished-at="2021-03-31T12:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateOneToOneVideoCallFromWeb() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="FAIL" signature="initiateOneToOneVideoCallFromWeb()[pri:223, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateOneToOneVideoCallFromWeb" duration-ms="189658" started-at="2021-03-31T12:37:40Z" finished-at="2021-03-31T12:40:50Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Video Call…'] (tried for 130 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Video Call…'] (tried for 130 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+at com.infinite.netsfere.automationtool.modules.android.pages.HDOneToOneCallElements.incomingVideoCallNotification(HDOneToOneCallElements.java:100)
+at com.infinite.netsfere.automationtool.modules.android.test.GroupCallTestCases.androidReceivesGroupVideoCall(GroupCallTestCases.java:117)
+at com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateOneToOneVideoCallFromWeb(EndToENdSanity.java:1619)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Video Call…']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CV011020435', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateOneToOneVideoCallFromWeb -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="11012" started-at="2021-03-31T12:40:50Z" finished-at="2021-03-31T12:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateOneToOneVideoCallFromAndroid() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="FAIL" signature="initiateOneToOneVideoCallFromAndroid()[pri:225, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateOneToOneVideoCallFromAndroid" duration-ms="86904" started-at="2021-03-31T12:41:01Z" finished-at="2021-03-31T12:42:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.infinite.netsfere.automationtool.modules.android.test.VideoCallTestCases.endOneToOneVideoCall(VideoCallTestCases.java:73)
+at com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateOneToOneVideoCallFromAndroid(EndToENdSanity.java:1630)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -122,15 +342,163 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateOneToOneVideoCallFromAndroid -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="216" started-at="2021-03-31T12:42:28Z" finished-at="2021-03-31T12:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateVideoCallFromWeb() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="FAIL" signature="initiateVideoCallFromWeb()[pri:226, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateVideoCallFromWeb" duration-ms="208228" started-at="2021-03-31T12:42:28Z" finished-at="2021-03-31T12:45:56Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Video Call…'] (tried for 130 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Video Call…'] (tried for 130 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+at com.infinite.netsfere.automationtool.modules.android.pages.HDOneToOneCallElements.incomingVideoCallNotification(HDOneToOneCallElements.java:100)
+at com.infinite.netsfere.automationtool.modules.android.test.GroupCallTestCases.androidReceivesGroupVideoCall(GroupCallTestCases.java:117)
+at com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateVideoCallFromWeb(EndToENdSanity.java:1641)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //android.widget.TextView[@resource-id='android:id/text' and @text='Incoming Video Call…']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CV011020435', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+at java.util.Optional.orElseThrow(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateVideoCallFromWeb -->
+        <test-method status="PASS" signature="makeSureWeAreInCorrectPageBeforeExecutingTestCase(java.lang.reflect.Method)[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="makeSureWeAreInCorrectPageBeforeExecutingTestCase" is-config="true" duration-ms="2930" started-at="2021-03-31T12:45:56Z" finished-at="2021-03-31T12:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateVideoCallFromAndroid() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureWeAreInCorrectPageBeforeExecutingTestCase -->
+        <test-method status="FAIL" signature="initiateVideoCallFromAndroid()[pri:227, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="initiateVideoCallFromAndroid" duration-ms="88689" started-at="2021-03-31T12:45:59Z" finished-at="2021-03-31T12:47:28Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@resource-id='com.infinite.netsfere:id/ring_message_info']})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@resource-id='com.infinite.netsfere:id/ring_message_info']})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+at com.infinite.netsfere.automationtool.modules.android.pages.VideoCallPage.clickOnVideoCallButton(VideoCallPage.java:56)
+at com.infinite.netsfere.automationtool.modules.android.test.VideoCallTestCases.initiateVideoCall(VideoCallTestCases.java:44)
+at com.infinite.netsfere.automationtool.suits.EndToENdSanity.initiateVideoCallFromAndroid(EndToENdSanity.java:1651)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@70e29e14 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)
+... 30 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@resource-id='com.infinite.netsfere:id/ring_message_info']})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CV011020435', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+... 32 more
+]]>
+            </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webMuteConversationFromAllConversationPage -->
-        <test-method status="PASS" signature="stopTest()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToEndRegression@54c562f7]" name="stopTest" is-config="true" duration-ms="6073" started-at="2021-02-26T13:01:47Z" finished-at="2021-02-26T13:01:54Z">
+        </test-method> <!-- initiateVideoCallFromAndroid -->
+        <test-method status="PASS" signature="stopTest()[pri:0, instance:com.infinite.netsfere.automationtool.suits.EndToENdSanity@419c5f1a]" name="stopTest" is-config="true" duration-ms="6049" started-at="2021-03-31T12:47:28Z" finished-at="2021-03-31T12:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopTest -->
-      </class> <!-- com.infinite.netsfere.automationtool.suits.EndToEndRegression -->
+      </class> <!-- com.infinite.netsfere.automationtool.suits.EndToENdSanity -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
