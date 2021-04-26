@@ -28,6 +28,7 @@ import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.MobilePlatform;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class DriverManager {
@@ -141,8 +142,9 @@ public class DriverManager {
 				webDriver = new FirefoxDriver(options);
 			
 		} else if (Constants.browser.equals("Chrome")) {
+			WebDriverManager.chromedriver().setup();
 			DesiredCapabilities caps = new DesiredCapabilities();
-			File driverPath = new File(f, "chromedriver.exe");
+//			File driverPath = new File(f, "chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			Map<String, Object> prefs = new HashMap<String, Object>();
 			prefs.put("profile.default_content_setting_values.notifications", 1);
@@ -151,7 +153,7 @@ public class DriverManager {
 			options.addArguments("use-fake-ui-for-media-stream");
 			options.addArguments("use-fake-device-for-media-stream");
 			options.addArguments("--enable-notifications");
-			System.setProperty("webdriver.chrome.driver", driverPath.getAbsolutePath());
+//			System.setProperty("webdriver.chrome.driver", driverPath.getAbsolutePath());
 			webDriver = new ChromeDriver(options);
 
 		}
@@ -198,8 +200,9 @@ public class DriverManager {
 
 		File f = new File("resources");
 		if (Constants.browser1.equals("firefox")) {
-			File driverPath = new File(f, "geckodriver.exe");
-			System.setProperty("webdriver.gecko.driver", driverPath.getAbsolutePath());
+			WebDriverManager.chromedriver().setup();
+//			File driverPath = new File(f, "geckodriver.exe");
+//			System.setProperty("webdriver.gecko.driver", driverPath.getAbsolutePath());
 			secondWebDriver = new FirefoxDriver();
 
 			FirefoxProfile ffprofile = new FirefoxProfile();
@@ -209,14 +212,15 @@ public class DriverManager {
 			(secondWebDriver).manage().window().maximize();
 
 		} else if (Constants.browser1.equals("Chrome")) {
-			File driverPath = new File(f, "chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
+//			File driverPath = new File(f, "chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			Map<String, Object> prefs = new HashMap<String, Object>();
 			prefs.put("profile.default_content_setting_values.notifications", 1);
 			options.setExperimentalOption("prefs", prefs);
 			options.addArguments("use-fake-ui-for-media-stream");
 			options.addArguments("--enable-notifications");
-			System.setProperty("webdriver.chrome.driver", driverPath.getAbsolutePath());
+//			System.setProperty("webdriver.chrome.driver", driverPath.getAbsolutePath());
 			secondWebDriver = new ChromeDriver(options);
 
 		}

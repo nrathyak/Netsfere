@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AutomationTool/webSanity.xml&apos; to &apos;testng.xml&apos;" description="Rename resource &apos;webSanity.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="webSanity.xml" name="testng.xml" stamp="1619080200648" updateReferences="true"/>
+</session>
